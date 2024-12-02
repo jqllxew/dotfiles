@@ -1,4 +1,6 @@
 
+![](./screen.png)
+
 ## env
 ```bash
 pacman -S polybar betterlockscreen fcitx5 kitty zsh i3-wm picom
