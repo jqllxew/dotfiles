@@ -3,13 +3,15 @@
 
 ## env
 ```bash
-pacman -S polybar betterlockscreen fcitx5 kitty zsh i3-wm picom
+pacman -S polybar betterlockscreen fcitx5 kitty zsh i3-wm picom nitrogen
 # font
 pacman -S ttf-hack-nerd
 # 屏幕按键反馈
 pacman -S screenkey
 # 窗口属性
 pacman -S xorg-xprop
+# 可能与 pulseaudio 冲突，保留一个
+pacman -S pipewire pipewire-pulse pipewire-alsa wireplumber
 ```
 
 ## oh-my-zsh
@@ -19,4 +21,3 @@ cd ~/.oh-my-zsh/custom/themes/
 git clone git@github.com:romkatv/powerlevel10k.git
 # 删除 ~/.p10k.zsh 可重新安装
 ```
-

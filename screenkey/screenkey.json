@@ -1,0 +1,33 @@
+{
+    "no_systray": false,
+    "timeout": 2.5,
+    "recent_thr": 0.1,
+    "compr_cnt": 3,
+    "ignore": [],
+    "position": "bottom",
+    "persist": false,
+    "window": false,
+    "font_desc": "FreeSans Semi-Bold 10",
+    "font_size": "medium",
+    "font_color": "white",
+    "bg_color": "black",
+    "opacity": 0.8,
+    "key_mode": "composed",
+    "bak_mode": "baked",
+    "mods_mode": "normal",
+    "mods_only": false,
+    "vis_shift": false,
+    "vis_space": true,
+    "geometry": [
+        -50,
+        -50,
+        750,
+        700
+    ],
+    "screen": 0,
+    "start_disabled": false,
+    "mouse": false,
+    "button_hide_duration": 1,
+    "multiline": false,
+    "max_lines": 3
+}
