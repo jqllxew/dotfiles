@@ -1,0 +1,16 @@
+configuration {
+/*	modes: "window,drun,run,ssh";*/
+	font: "Source Code Pro 30";
+	hover-select: true;
+  me-select-entry: "";/* Disable MousePrimary as an entry selector */
+  me-accept-entry: [ MousePrimary , MouseSecondary, MouseDPrimary ];
+  timeout {
+      action: "kb-cancel";
+      delay:  0;
+  }
+  filebrowser {
+      directories-first: true;
+      sorting-method:    "name";
+  }
+}
+//@theme "/home/jqllxew/.local/share/rofi/themes/squared-nord.rasi"

@@ -3,7 +3,9 @@
 
 ## env
 ```bash
-pacman -S polybar betterlockscreen fcitx5 kitty zsh i3-wm picom nitrogen
+pacman -S polybar betterlockscreen fcitx5 kitty zsh i3-wm picom 
+# 壁纸
+pacman -S nitrogen
 # font
 pacman -S ttf-hack-nerd
 # 屏幕按键反馈
